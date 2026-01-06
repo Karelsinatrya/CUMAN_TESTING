@@ -1,0 +1,38 @@
+Mulai
+jumlah = 0
+
+Ulangi
+  Tampilkan menu
+  Input pilihan
+
+  Jika pilihan = 1
+      Input n
+      Ulangi i dari 1 sampai n
+          Input merk, tipe, tahun, harga
+          Simpan ke array
+          jumlah++
+      Selesai for
+
+  Jika pilihan = 2
+      Ulangi i dari 0 sampai jumlah-1
+          Tampilkan data mobil
+      Selesai for
+
+  Jika pilihan = 3
+      Input merk_cari
+      ketemu = false
+      Ulangi i dari 0 sampai jumlah-1
+          Jika merk[i] == merk_cari
+              Tampilkan data
+              ketemu = true
+      Jika ketemu = false
+          Tampilkan "Tidak ditemukan"
+
+  Jika pilihan = 4
+      total = 0
+      Ulangi i dari 0 sampai jumlah-1
+          total = total + harga[i]
+      Tampilkan total
+
+Sampai pilihan = 5
+Selesai
